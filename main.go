@@ -1,10 +1,10 @@
 package main
 
 import (
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/database"
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/handlers"
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/repositories"
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/services"
+	"github/UCSEPROG2-2024-BANDAANCHA/go/database"
+	"github/UCSEPROG2-2024-BANDAANCHA/go/handlers"
+	"github/UCSEPROG2-2024-BANDAANCHA/go/repositories"
+	"github/UCSEPROG2-2024-BANDAANCHA/go/services"
 
 	"github.com/gin-gonic/gin"
 )
