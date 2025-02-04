@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Pedido</title>
+    <meta name="referrer" content="origin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link href="../styles.css" rel="stylesheet">
+</head>
+
+<body>
+        <h1 id="tituloFormulario"> Crear Pedido </h1>
+        <a href="listado-pedidos.html">Volver</a>
+        <form action="/" method="post" id="formulario">
+            
+            <div>
+                <label for="destino">Destino</label>
+                <input type="text" name="destino" id="destino">
+            </div>
+            <div id="listaProductos">
+                <h2>Productos</h2>
+                <table id="elementosTable">
+                    <thead>
+                        <tr>
+                            <th>Seleccionar</th>
+                            <th>Código</th>
+                            <th>Descripcion</th>
+                            <th>Cantidad</th>
+                            <th>Precio Unitario</th>
+                            <th>Peso Unitario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Todas las filas de datos -->
+                    </tbody>
+                </table>
+            </div>
+           
+            <div>
+                <input type="submit" id="botonGuardar" value="Enviar">
+            </div>
+        </form>
+        <script src="form-pedido.js"></script>
+        <!-- <script src="../request.js"></script> -->
+    </body>
+
+</html>
