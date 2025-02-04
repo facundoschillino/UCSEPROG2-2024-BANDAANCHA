@@ -1,4 +1,4 @@
-module ProyectoEnvios
+module github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go
 
 go 1.23.4
 

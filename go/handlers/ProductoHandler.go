@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/dto"
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/services"
 	"net/http"
+
+	"github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go/dto"
+	"github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go/services"
 
 	"github.com/gin-gonic/gin"
 )

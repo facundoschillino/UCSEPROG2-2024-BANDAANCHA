@@ -1,9 +1,10 @@
 package dto
 
 import (
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/models"
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/utils"
 	"time"
+
+	"github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go/models"
+	"github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go/utils"
 )
 
 type Producto struct {

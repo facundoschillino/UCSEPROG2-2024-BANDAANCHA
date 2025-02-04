@@ -1,9 +1,9 @@
 package services
 
 import (
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/dto"
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/repositories"
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/utils"
+	"github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go/dto"
+	"github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go/repositories"
+	"github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go/utils"
 )
 
 type ProductoInterface interface {

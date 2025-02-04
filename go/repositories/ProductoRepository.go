@@ -1,11 +1,12 @@
 package repositories
 
 import (
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/database"
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/models"
-	"Github/UCSEPROG2-2024-BANDAANCHA/go/utils"
 	"context"
 	"fmt"
+
+	"github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go/database"
+	"github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go/models"
+	"github.com/facundoschillino/UCSEPROG2-2024-BANDAANCHA/go/utils"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
@@ -16,8 +17,8 @@ type ProductoRepositoryInterface interface {
 	ObtenerProductos() ([]models.Producto, error)
 	ObtenerProductoPorID(id string) (models.Producto, error)
 	CrearProducto(producto models.Producto) (*mongo.InsertOneResult, error)
-	EliminarProducto(id primitive.ObjectID) (*mongo.DeleteOneResult, error)
-	ModificarProducto(producto models.Producto) (*mongo.UpdateOneResult, error)
+	EliminarProducto(id primitive.ObjectID) (*mongo.DeleteResult, error)
+	ModificarProducto(producto models.Producto) (*mongo.UpdateResult, error)
 }
 
 type ProductoRepository struct {
